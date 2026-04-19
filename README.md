@@ -1,31 +1,33 @@
-# LikeMe - Social Media (PostgreSQL)
+# LikeMe - Red Social (PostgreSQL)
 
-Full-stack social media app where users can share sketches, view a feed and give likes. Built with React frontend and Node.js/Express backend connected to PostgreSQL.
+Aplicación full-stack de red social donde los usuarios pueden compartir sketches, ver un feed y dar likes. Frontend en React conectado a un backend Node.js/Express con PostgreSQL.
 
-> Academic project developed during the Full Stack JavaScript Bootcamp at Desafío LATAM.
+> Nota: Este es un proyecto académico desarrollado durante el Bootcamp Full Stack JavaScript de Desafío LATAM.
 
-### Features
+## Funcionalidades
 
-- Create posts with title, image URL and description
-- View posts feed with like counter
-- Give likes to posts
-- Delete posts
-- RESTful API with MVC architecture
+- Crear posts con título, URL de imagen y descripción
+- Ver feed de posts con contador de likes
+- Dar likes a posts
+- Eliminar posts
+- API RESTful con arquitectura MVC
 
-### Technologies
+## Tecnologías
 
-**Client**
+**Cliente**
+
 - React 18
 - Vite
 - Material UI (MUI)
 - Axios
 
-**Server**
+**Servidor**
+
 - Node.js / Express
 - PostgreSQL (pg)
 - CORS / dotenv
 
-### Project Structure
+## Estructura del Proyecto
 
 ```
 client/
@@ -51,10 +53,10 @@ server/
 └── server.js
 ```
 
-### Setup
+## Instalación
 
-1. Create the database using `server/db/schema.sql`
-2. Configure `server/.env` with your PostgreSQL credentials
-3. Run `npm install` in both `client/` and `server/`
-4. Start server: `npm start` (from `server/`)
-5. Start client: `npm run dev` (from `client/`)
+1. Crear la base de datos con `server/db/schema.sql`
+2. Configurar `server/.env` con las credenciales de PostgreSQL
+3. Ejecutar `npm install` en `client/` y `server/`
+4. Iniciar servidor: `npm start` (desde `server/`)
+5. Iniciar cliente: `npm run dev` (desde `client/`)
